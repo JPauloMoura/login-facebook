@@ -1,0 +1,131 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#informacoes {
+  width: 40%;
+}
+
+#informacoes img{
+    width: 300px;    
+}
+
+#informacoes p{
+    font-size: 28px;
+    line-height: 38px;
+    margin-left: 25px;
+}
+
+#formulario {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 60%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 2px 3px 5px #d0d0d0;
+    align-items: center;
+    padding: 15px;
+}
+
+form input{
+    height: 15%;
+    width: 95%;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0px 0px 1px #dddfe2;
+    margin: 7px;
+    color: #8a8a8a;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#bntSubmit {
+    height: 15%;
+    width: 98%;
+    border-radius: 6px;
+    text-align: center;
+    margin: 7px;
+    background-color: #1877f2;
+
+}
+
+#bntSubmit a{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+form p{
+   padding: 10px 28% 15px 28%;
+   border-bottom: 1px solid rgb(228, 228, 228);
+}
+form p a{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 7px;
+}
+form p a:hover{
+    color: #1877f2;
+    text-decoration:underline;
+}
+
+
+
+#bntNovaConta {
+    height: 15%;
+    width: 50%;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #42b72a;
+}
+#bntNovaConta a{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: white;
+   text-decoration: none;
+}
+
+.rodape-formulario {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.rodape-formulario a {
+    text-decoration: none;
+    color: black;
+}
+.rodape-formulario a:hover {
+    color: black;
+    text-decoration:underline;
+}
